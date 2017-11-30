@@ -21,9 +21,6 @@ public class BallReset : MonoBehaviour {
         rigidbody = GetComponent<Rigidbody>();
         originPos = gameObject.transform.position;
 
-        platformCenter = platform.GetComponent<MeshCollider>().bounds.center;
-        platformExtents = platform.GetComponent<MeshCollider>().bounds.extents;
-
         sceneName = SceneManager.GetActiveScene().name;
     }
 	
@@ -61,8 +58,6 @@ public class BallReset : MonoBehaviour {
 
         if (currPos.x > platformCenter.x + platformExtents.x ||
             currPos.x < platformCenter.x - platformExtents.x ||
-            currPos.y > platformCenter.y + platformExtents.y * 3 ||
-            currPos.y < platformCenter.y - platformExtents.y * 0.5 ||
             currPos.z > platformCenter.z + platformExtents.z ||
             currPos.z < platformCenter.z - platformExtents.z)
         {

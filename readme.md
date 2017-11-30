@@ -51,6 +51,14 @@ Some screenshots for your inspiration:
   </tr>
 </table>  
 
+### Level Data
+
+| Level | Star 1 | Star 2 | Goal |
+| Lv 1 | (0, 0.5, 1) | (0, 1, 1) | (0, y, 1) |
+| Lv 2 | (0, 2, 1) | (0, 0.6, 3) | (0, y, 5) |
+| Lv 3 | (0, 0.6, 1) | (0, 2, 3) | (0, y, 5) |
+| Lv 4 | (0, 0.6, 1) | (-2, 2, 3) | (0, y, 5) |
+
 ### Time Taken to Build This Project
 
 8 hours

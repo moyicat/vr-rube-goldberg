@@ -19,7 +19,7 @@ Platform assembly: C:\Users\moyi\Documents\Unity\vr-rube-goldberg\Vive_Data\Mana
 Loading C:\Users\moyi\Documents\Unity\vr-rube-goldberg\Vive_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: C:\Users\moyi\Documents\Unity\vr-rube-goldberg\Vive_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\moyi\Documents\Unity\vr-rube-goldberg\Vive_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.015 seconds
+- Completed reload, in  0.045 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
@@ -27,16 +27,23 @@ OpenVR initialized!
  
 (Filename:  Line: 584)
 
-UnloadTime: 0.613831 ms
+UnloadTime: 0.446008 ms
 Connected to lighthouse:LHR-6F26E2F5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 3a90 -> priority: 1 
-  Thread -> id: 3f0 -> priority: 1 
-  Thread -> id: 1ef8 -> priority: 1 
-  Thread -> id: 4728 -> priority: 1 
+  Thread -> id: 536c -> priority: 1 
+  Thread -> id: 2228 -> priority: 1 
+  Thread -> id: 30ac -> priority: 1 
+  Thread -> id: d58 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.285368 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1202.
+Total: 0.543857 ms (FindLiveObjects: 0.083342 ms CreateObjectMapping: 0.037831 ms MarkObjects: 0.407893 ms  DeleteObjects: 0.014222 ms)
+
+Shader warmup: 32 shaders 1105 combinations 2.093s
 OpenVR Shutdown
  
 (Filename:  Line: 1253)

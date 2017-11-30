@@ -32,7 +32,7 @@ public class ControllerInputManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         trackObj = GetComponent<SteamVR_TrackedObject>();
-        device = SteamVR_Controller.Input((int)trackObj.index);
+        
         if (trackObj.name == "Controller (left)")
         {
             isLeft = true;
@@ -48,6 +48,8 @@ public class ControllerInputManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        device = SteamVR_Controller.Input((int)trackObj.index);
 
         // Teleportation w/ Left Touchpad
         if (isLeft)
